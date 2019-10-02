@@ -867,7 +867,7 @@ class BVARNIG(ProbabilityModel):
         """
         
         
-        print("Initializing BVAR object")
+        #print("Initializing BVAR object")
         
         """STEP 1: Take the data-stream that was partitioned appropriately
         inside the Detector object and reshape/rename it for further processing

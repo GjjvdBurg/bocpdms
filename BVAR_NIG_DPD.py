@@ -177,7 +177,7 @@ class BVARNIGDPD(BVARNIG):
             deprecated, leave None.
         """
         
-        print("Initializing BVAR DPD object")
+        #print("Initializing BVAR DPD object")
         
         """STEP 1: Take the data-stream that was partitioned appropriately
         inside the Detector object and reshape/rename it for further processing

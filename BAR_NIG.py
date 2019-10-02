@@ -128,7 +128,7 @@ class BARNIG(ProbabilityModel):
         NOTE:    The X_exo-arguments are not relevant for BAR_NIG (at this stage)
         """
         
-        print("Initializing BAR object")
+        #print("Initializing BAR object")
         
         """STEP 1: Get relevant variables and reshape them + pass them to 
         individual BVARs for initialization"""
