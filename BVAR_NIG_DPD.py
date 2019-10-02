@@ -15,9 +15,9 @@ from scipy import special
 from scipy import linalg
 from scipy import stats
 import scipy
-from probability_model import ProbabilityModel
-from nearestPD import NPD
-from BVAR_NIG import BVARNIG
+from .probability_model import ProbabilityModel
+from .nearestPD import NPD
+from .BVAR_NIG import BVARNIG
 
 
 class BVARNIGDPD(BVARNIG):

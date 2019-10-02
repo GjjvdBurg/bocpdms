@@ -14,8 +14,8 @@ import numpy as np
 from scipy import linalg
 from scipy import misc
 
-from probability_model import ProbabilityModel
-from BVAR_NIG import BVARNIG
+from .probability_model import ProbabilityModel
+from .BVAR_NIG import BVARNIG
 
 class BARNIG(ProbabilityModel):
     """This creates an object based on and similar to the BVARNIG object.

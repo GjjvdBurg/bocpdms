@@ -11,7 +11,7 @@ results that were stored on HD (iv) allows for a variety of plotting functions
 once the algo has run/once data has been read in.
 """
 
-from detector import Detector
+from .detector import Detector
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 import matplotlib.dates as mdates
@@ -24,11 +24,11 @@ import pickle
 import os
 import datetime
 import collections
-from nearestPD import NPD
+from .nearestPD import NPD
 import matplotlib.lines as mlines
 
 
-from BAR_NIG import BARNIG
+from .BAR_NIG import BARNIG
 
 class EvaluationTool:
     """Description: Convenient object that serves as a wrapper for experiments and

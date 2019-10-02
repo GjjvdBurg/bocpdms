@@ -16,8 +16,8 @@ import scipy
 from scipy import misc
 import time
 
-from BVAR_NIG_DPD import BVARNIGDPD
-from BVAR_NIG import BVARNIG
+from .BVAR_NIG_DPD import BVARNIGDPD
+from .BVAR_NIG import BVARNIG
 
 class Detector:
     """key object in the Spatial BOCD
