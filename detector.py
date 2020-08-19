@@ -309,16 +309,16 @@ class Detector:
             stop = self.T
             
         """run the detector"""
-        time_start = time.clock()
+        time_start = time.time()
         time2 = 0.0
         for t in range(start-1, stop-1):
             #if t % self.notifications == 0 and time2 != 0.0:
             #    print("Processing observation #" + str(int(t)))
-            #    print("Last iteration took " + str(time.clock() - time2) + 
+            #    print("Last iteration took " + str(time.time() - time2) + 
             #          " seconds")
-            time2 = time.clock()
+            time2 = time.time()
             self.next_run(self.data[t,:], t+1)          
-        self.execution_time = time.clock() - time_start
+        self.execution_time = time.time() - time_start
 
     
     def next_run(self, y, t):
